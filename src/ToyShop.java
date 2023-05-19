@@ -6,16 +6,16 @@ public class ToyShop {
 
         double holidayPrice = Double.parseDouble(scanner.nextLine());
         int puzzles = Integer.parseInt(scanner.nextLine());
-        int talkingDall = Integer.parseInt(scanner.nextLine());
+        int talkingDoll = Integer.parseInt(scanner.nextLine());
         int teddyBear = Integer.parseInt(scanner.nextLine());
         int minion = Integer.parseInt(scanner.nextLine());
         int truck = Integer.parseInt(scanner.nextLine());
 
 
-        double totalToysPrice = puzzles * 2.60 + talkingDall * 3 + teddyBear * 4.10 + minion * 8.20 + truck * 2;
+        double totalToysPrice = puzzles * 2.60 + talkingDoll * 3 + teddyBear * 4.10 + minion * 8.20 + truck * 2;
 
 
-        int totalToys = puzzles + teddyBear + talkingDall + minion + truck;
+        int totalToys = puzzles + teddyBear + talkingDoll + minion + truck;
 
 
         if (totalToys >= 50) {
