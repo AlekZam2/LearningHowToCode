@@ -2,15 +2,25 @@ import java.util.Scanner;
 
 public class PositiveOrNegative2 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
+        System.out.print("Input value: ");
+        double input = in.nextDouble();
 
-        int input = Integer.parseInt(scanner.nextLine());
-        if (input < 0) {
-            System.out.println("Small Negative Number");
-        } else if (input > 1000000) {
-            System.out.println("Large Positive Number");
-            if (input > 0) {
-                System.out.println("Positive Number");
+        if (input > 0) {
+            if (input < 1) {
+                System.out.println("Positive small number");
+            } else if (input > 1000000) {
+                System.out.println("Positive large number");
+            } else {
+                System.out.println("Positive number");
+            }
+        } else if (input < 0) {
+            if (Math.abs(input) < 1) {
+                System.out.println("Negative small number");
+            } else if (Math.abs(input) > 1000000) {
+                System.out.println("Negative large number");
+            } else {
+                System.out.println("Negative number");
             }
         } else {
             System.out.println("Zero");
