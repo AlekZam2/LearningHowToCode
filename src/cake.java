@@ -4,32 +4,24 @@ public class cake {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        String width = scanner.nextLine();
-        String length = scanner.nextLine();
-        int peacesTaken = Integer.parseInt(scanner.nextLine());
-        switch (width){
-            case "stop":
+        int width = Integer.parseInt(scanner.nextLine());
+        int length = Integer.parseInt(scanner.nextLine());
+
+        int countPieces = width * length;
+
+        String command = scanner.nextLine();
+
+        while ( !command.equals("Stop")){
+            int currentPieces = Integer.parseInt(command);
+            countPieces-=currentPieces;
+            if(countPieces <= 0){
+                System.out.printf("No more cake left! You need %d pieces more.",Math.abs(countPieces));
                 break;
+            }
+            command = scanner.nextLine();
         }
-
-
-
-        int widthNum = Integer.parseInt(width);
-        int lengthNum = Integer.parseInt(length);
-        int allPeaces = widthNum * lengthNum;
-
-        while (allPeaces > 0 ){
-            allPeaces -= peacesTaken;
-
-            peacesTaken = Integer.parseInt(scanner.nextLine());
-        }
-
-        if (allPeaces != 0){
-            System.out.println(allPeaces);
-        } else {
-            System.out.println("n");
-
-
+        if(countPieces > 0){
+            System.out.printf(" %d pieces are left." , countPieces);
         }
 
 
