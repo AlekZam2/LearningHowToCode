@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="543f6ce4-a891-47d6-8a4c-b182c78202b4" name="Changes" comment="tasks">
+      <change afterPath="$PROJECT_DIR$/src/ArraysEx14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysEx15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysEx16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysEx17.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayEx13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayEx13.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691081931301</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="tasks">
+      <created>1691178868626</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1691178868626</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -159,6 +169,11 @@
           <url>file://$PROJECT_DIR$/src/ArrayEx12.java</url>
           <line>4</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ArraysEx16.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
