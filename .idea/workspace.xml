@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="543f6ce4-a891-47d6-8a4c-b182c78202b4" name="Changes" comment="tasks">
-      <change afterPath="$PROJECT_DIR$/src/ArraysEx14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysEx15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysEx16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysEx17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringEqualityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringGetChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringManipulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringUpperLower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691178868626</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="tasks">
+      <created>1692027062912</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1692027062912</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
